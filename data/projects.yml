@@ -1,0 +1,93 @@
+- title: Clicker Classic
+  description: My first game, a buggy cookie clicker clone.
+  category: Game
+  year: 2014
+  downloads:
+    - name: .exe
+      url: http://
+    - name: .gmz
+      url: http://
+  links:
+    - name: Gamejolt
+      url: https://gamejolt.com/games/clicker-classic/25125
+
+- title: Reindeer 23/3
+  description: A small contribution to gm-d.de advent calendar 2015. Your goal is to breed reindeers in a certain time period. The reproduction follows the rules of Conways Game of Life.
+  category: Game
+  year: 2015
+  downloads:
+    - name: .exe
+      url: /file/rentier.exe
+    - name: .gmz
+      url: /file/rentier.gmz
+
+- title: Wildes Türchenreissen
+  description: My second entry for the gm-d advent calendar. Just open your advent calendar fast as possible,
+  category: Game
+  year: 2015 
+  downloads:
+    - name: .exe
+      url: /file/tuer.exe
+    - name: .gmz
+      url: /file/tuer.gmz
+
+- title: Clicker Revolution
+  description: "The sequel to Clicker: Classic. It features a online highscore."
+  category: Game
+  year: 2016
+  downloads:
+    - name: .exe
+      url: /file/revolution.gmz
+    - name: .gmz
+      url: /file/revolution.gmz
+
+- title: Fractal Tree Generator
+  description: A small tool for creating and displaying binary fractaltrees.
+  category: Tool
+  year: 2016
+  downloads:
+    - name: .exe
+      url: http://
+    - name: .love
+      url: http://
+  links:
+    - name: Github
+      url: https://github.com/PixelwarStudio/simple-fractal-tree-generator
+
+- title: Game of Life
+  description: A tool for simulating Conway's Game of Life. Beside the classic 23/3 rule you can also explore the behaviour of the celluar automat for every other rule.
+  category: Tool
+  year: 2016
+  downloads:
+    - name: .exe
+      url: http://
+    - name: .love
+      url: http://
+  links:
+    - name: Github
+      url: https://github.com/PixelwarStudio/conway-game-of-life-simulator
+
+- title: Simon
+  description: A implementation of Simon, also know as Senso. You have to recognize the order of the...
+  category: Game
+  year: 2016
+  tags:
+    - Game
+    - Puzzle
+    - "GamerMaker: Studio"
+  links:
+    - name: Gamejolt
+      url: https://gamejolt.com/games/simon/95671
+
+- title: PyTree
+  description: A package for creating and drawing trees of every color and shape.
+  category: Package
+  year: 2017
+  downloads:
+    - name: .zip
+      url: http://
+  links:
+    - name: PyPi
+      url: http://
+    - name: Github
+      url: https://github.com/PixelwarStudio/PyTree
