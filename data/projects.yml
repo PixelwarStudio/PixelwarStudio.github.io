@@ -2,11 +2,6 @@
   description: My first game, a buggy cookie clicker clone.
   category: Game
   year: 2014
-  downloads:
-    - name: .exe
-      url: http://
-    - name: .gmz
-      url: http://
   links:
     - name: Gamejolt
       url: https://gamejolt.com/games/clicker-classic/25125
@@ -35,34 +30,22 @@
   description: "The sequel to Clicker: Classic. It features a online highscore."
   category: Game
   year: 2016
-  downloads:
-    - name: .exe
-      url: /file/revolution.gmz
-    - name: .gmz
-      url: /file/revolution.gmz
+  links:
+    - name: Gamejolt
+      url: https://gamejolt.com/games/clicker-revolution/45728 
 
 - title: Fractal Tree Generator
   description: A small tool for creating and displaying binary fractaltrees.
-  category: Tool
+  category: Application
   year: 2016
-  downloads:
-    - name: .exe
-      url: http://
-    - name: .love
-      url: http://
   links:
     - name: Github
       url: https://github.com/PixelwarStudio/simple-fractal-tree-generator
 
 - title: Game of Life
   description: A tool for simulating Conway's Game of Life. Beside the classic 23/3 rule you can also explore the behaviour of the celluar automat for every other rule.
-  category: Tool
+  category: Application
   year: 2016
-  downloads:
-    - name: .exe
-      url: http://
-    - name: .love
-      url: http://
   links:
     - name: Github
       url: https://github.com/PixelwarStudio/conway-game-of-life-simulator
@@ -71,10 +54,6 @@
   description: A implementation of Simon, also know as Senso. You have to recognize the order of the...
   category: Game
   year: 2016
-  tags:
-    - Game
-    - Puzzle
-    - "GamerMaker: Studio"
   links:
     - name: Gamejolt
       url: https://gamejolt.com/games/simon/95671
@@ -83,11 +62,8 @@
   description: A package for creating and drawing trees of every color and shape.
   category: Package
   year: 2017
-  downloads:
-    - name: .zip
-      url: http://
   links:
     - name: PyPi
-      url: http://
+      url: https://pypi.org/project/Tree/
     - name: Github
       url: https://github.com/PixelwarStudio/PyTree
