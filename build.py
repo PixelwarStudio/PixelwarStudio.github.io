@@ -16,3 +16,4 @@ if __name__ == "__main__":
     write("index.j2", "index.html", projects=projects)
     write("imprint.j2", "imprint.html")
     write("disclaimer.j2", "disclaimer.html")
+    write("tree.j2", "tree.html")

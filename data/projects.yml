@@ -10,31 +10,21 @@
   description: A small contribution to gm-d.de advent calendar 2015. Your goal is to breed reindeers in a certain time period. The reproduction follows the rules of Conways Game of Life.
   category: Game
   year: 2015
-  downloads:
-    - name: .exe
-      url: /file/rentier.exe
-    - name: .gmz
-      url: /file/rentier.gmz
 
 - title: Wildes Türchenreissen
-  description: My second entry for the gm-d advent calendar. Just open your advent calendar fast as possible,
+  description: My second entry for the gm-d advent calendar. Just open your advent calendar fast as possible in the right order.
   category: Game
   year: 2015 
-  downloads:
-    - name: .exe
-      url: /file/tuer.exe
-    - name: .gmz
-      url: /file/tuer.gmz
 
 - title: Clicker Revolution
-  description: "The sequel to Clicker: Classic. It features a online highscore."
+  description: "The sequel to Clicker: Classic. It features a online highscore. At the end, also a buggy cookie clicker clone."
   category: Game
   year: 2016
   links:
     - name: Gamejolt
       url: https://gamejolt.com/games/clicker-revolution/45728 
 
-- title: Fractal Tree Generator
+- title: Binary Fractal Tree Generator
   description: A small tool for creating and displaying binary fractaltrees.
   category: Application
   year: 2016
@@ -51,7 +41,7 @@
       url: https://github.com/PixelwarStudio/conway-game-of-life-simulator
 
 - title: Simon
-  description: A implementation of Simon, also know as Senso. You have to recognize the order of the...
+  description: A implementation of Simon, also known as Senso. You have to reproduce the order of random button lighting up.
   category: Game
   year: 2016
   links:
@@ -59,7 +49,7 @@
       url: https://gamejolt.com/games/simon/95671
 
 - title: PyTree
-  description: A package for creating and drawing trees of every color and shape.
+  description: A package for creating and drawing trees of every shape and color.
   category: Package
   year: 2017
   links:
