@@ -1,33 +1,49 @@
 - title: Clicker Classic
+  id: clicker_classic
   description: My first game, a buggy cookie clicker clone.
   category: Game
   year: 2014
+  tools: [Game Maker]
   links:
     - name: Gamejolt
       url: https://gamejolt.com/games/clicker-classic/25125
 
-- title: Reindeer 23/3
-  description: A small contribution to gm-d.de advent calendar 2015. Your goal is to breed reindeers in a certain time period. The reproduction follows the rules of Conways Game of Life.
+- title: Rentier Typ 23-3
+  description: A small contribution to the gm-d.de advent calendar 2015.
+    The goal is to breed as many as possible reindeers in a certain time period.
+    The reproduction follows the rules of Conways Game of Life.
   category: Game
+  tools: [Game Maker]
   year: 2015
+  links:
+    - name: gm-d.de forum post
+      url: https://www.gm-d.de/wbb/index.php/Thread/23933-Der-gm-d-de-Community-Adventskalender-2015/?pageNo=1
 
 - title: Wildes Türchenreissen
-  description: My second entry for the gm-d advent calendar. Just open your advent calendar fast as possible in the right order.
+  description: My second entry for the gm-d advent calendar.
+    Just open your advent calendar fast as possible in the right order.
   category: Game
+  tools: [Game Maker]
   year: 2015 
+  links:
+    - name: gm-d.de forum post
+      url: https://www.gm-d.de/wbb/index.php/Thread/23933-Der-gm-d-de-Community-Adventskalender-2015/?pageNo=1
 
 - title: Clicker Revolution
-  description: "The sequel to Clicker: Classic. It features a online highscore. At the end, also a buggy cookie clicker clone."
+  id: clicker_revolution
+  description: "The sequel to Clicker: Classic, and in the same spirit a buggy cookie clicker clown. Now you click on a computer instead of a yellow square. It features achievements and an online high-score."
   category: Game
+  tools: [Game Maker]
   year: 2016
   links:
     - name: Gamejolt
       url: https://gamejolt.com/games/clicker-revolution/45728 
 
 - title: Binary Fractal Tree Generator
-  description: A small tool for creating and displaying binary fractaltrees.
+  description: A small tool for creating and displaying binary fractal trees. Written in Lua and the game framework Löve/Love2d.
   category: Application
   year: 2016
+  tools: [Lua, Löve]
   links:
     - name: Github
       url: https://github.com/PixelwarStudio/simple-fractal-tree-generator
@@ -36,22 +52,26 @@
   description: A tool for simulating Conway's Game of Life. Beside the classic 23/3 rule you can also explore the behaviour of the celluar automat for every other rule.
   category: Application
   year: 2016
+  tools: [Lua, Löve]
   links:
     - name: Github
       url: https://github.com/PixelwarStudio/conway-game-of-life-simulator
 
 - title: Simon
-  description: A implementation of Simon, also known as Senso. You have to reproduce the order of random button lighting up.
+  description: An implementation of Simon, also known as Senso. You have to reproduce the order of random button lighting up.
   category: Game
   year: 2016
+  tools: [Lua, Löve]
   links:
     - name: Gamejolt
       url: https://gamejolt.com/games/simon/95671
 
 - title: PyTree
+  id: pytree
   description: A package for creating and drawing trees of every shape and color.
   category: Package
   year: 2017
+  tools: [Python]
   links:
     - name: PyPi
       url: https://pypi.org/project/Tree/

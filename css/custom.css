@@ -1,15 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
+:root {
+    --background-color: #2e3440;
+    --color: #d8dee9; 
+    --border-color: var(--color);
+}
+
 html, body *{
     font-family: 'Roboto Mono', monospace;
-    background-color: #2e3440;
-    color: #d8dee9;
+    background-color: var(--background-color);
+    color: var(--color);
     min-height: 100%;
     height: 100%;
+    font-weight: 400;
 }
 
 .header {
-    padding: 10% 0 10% 0;
+    padding: 5% 0 0 0;
+}
+
+summary {
+    cursor: pointer;
 }
 
 .header-img {
@@ -18,37 +29,36 @@ html, body *{
     margin-right: auto 
 }
 
-.headline {
-    text-align: left;
-}
-
 .game {
-    color: #efefef;
+    color: var(--color);
     opacity: 0.5;
 }
 
 .year {
-    color: #efefef;
+    color: var(--color);
     opacity: 0.3;
 }
 
-.container {
-    padding: 2% 10% 2% 10%;
+.content {
+    margin: 0 auto;
+    width: 720px;
+}
+
+@media screen and ( max-width: 784px ){
+    .content {
+        margin: 0 32px;
+        width: auto;
+    }
 }
 
 .caption {
     transform-origin: bottom;
 }
 
-.pure-button {
-    border-radius: 0px;
-    background-color: rgba(255, 255, 255, 0.2);
-    color: #fff;
-}
-
 .footer {
     text-align: center;
-    padding-bottom: 3%;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .footer > a {
@@ -56,17 +66,56 @@ html, body *{
     opacity: 0.8;
 }
 
-.centered {
-    text-align: center;
-    padding: 3% 0 3% 0;
+p {
+    text-align: justify;
 }
 
-.project-body {
-    margin-left: 5%;
-    text-align: justify;
+h1 {
+    border-bottom: 1px solid;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 4px;
+    margin-bottom: 2px;
+    display: inline-block;
 }
 
 canvas[resize] {
     width: 100%;
     height: 100%;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: var(--color);
+    opacity: 0.2;
+    margin: 0;
+}
+
+.image-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+.image-row-item {
+    object-fit: cover;
+    border: 1px solid var(--border-color);
+    filter: grayscale(80%);
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.project {
+    padding: 16px 0;
+}
+
+img:hover {
+    filter: grayscale(0%);
 }
