@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
-
 :root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
     --background-color: #2e3440;
     --color: #d8dee9; 
     --border-color: var(--color);
 }
+@supports (font-variation-settings: normal) {
+  :root { font-family: InterVariable, sans-serif; }
+}
+
 
 html, body *{
-    font-family: 'Roboto Mono', monospace;
     background-color: var(--background-color);
     color: var(--color);
     min-height: 100%;
@@ -21,6 +25,14 @@ html, body *{
 
 summary {
     cursor: pointer;
+}
+
+summary::after {
+  content: " ►";
+}
+
+details[open] summary:after {
+  content: " ▼";
 }
 
 .header-img {
@@ -71,14 +83,12 @@ p {
 }
 
 h1 {
-    border-bottom: 1px solid;
     margin-bottom: 0px;
 }
 
 h2 {
     margin-top: 4px;
     margin-bottom: 2px;
-    display: inline-block;
 }
 
 canvas[resize] {
@@ -108,8 +118,7 @@ hr {
     object-fit: cover;
     border: 1px solid var(--border-color);
     filter: grayscale(80%);
-    max-width: 200px;
-    max-height: 200px;
+    height: 100px;
 }
 
 .project {
@@ -118,4 +127,8 @@ hr {
 
 img:hover {
     filter: grayscale(0%);
+}
+
+.underlined {
+    border-bottom: 1px solid;
 }

@@ -5,7 +5,7 @@
 </div>
 <div class="container">
     <div class="content">
-        <h1>PROJECTS</h1>
+        <h1 class="underlined">PROJECTS</h1>
         <div class="projects">
         {% for project in projects %}
             <div class="project">
@@ -38,8 +38,8 @@
                 {% endif %}
 
                 {% if project["images"] %}
-                    <details open>
-                        <summary>Images:</summary>
+                    <details>
+                        <summary>Images</summary>
                         <div class="image-row">
                         {%- for image in project["images"] -%}
                             <a href={{ image }} target="_blank"><img class="image-row-item" src="{{ image }}"></a>
